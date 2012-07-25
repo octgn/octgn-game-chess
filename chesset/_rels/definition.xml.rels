@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+  <Relationship Target="/cards/bking.png" Id="C0df50d0f04004a11ab7f1b3afbed5daf" Type="http://schemas.octgn.org/picture" />
+  <Relationship Target="/cards/bknight.png" Id="C75cd0ccd9d7a45788646c17196d6b54b" Type="http://schemas.octgn.org/picture" />
+  <Relationship Target="/cards/bpawn.png" Id="Cb9d0646c5a0d40669bc177efb891a618" Type="http://schemas.octgn.org/picture" />
+  <Relationship Target="/cards/bqueen.png" Id="Cf4ef6fea046f42bf921d92ed72ac5b5f" Type="http://schemas.octgn.org/picture" />
+  <Relationship Target="/cards/brook.png" Id="Cba598f95f37348ecbe3c62035f845f39" Type="http://schemas.octgn.org/picture" />
+  <Relationship Target="/cards/bbishop.png" Id="Ce73920a6151d4a1f908799346e189781" Type="http://schemas.octgn.org/picture" />
+  <Relationship Target="/cards/wbishop.png" Id="C713574305d2b44a483a450d6eb15be91" Type="http://schemas.octgn.org/picture" />
+  <Relationship Target="/cards/wking.png" Id="Cecabdb3422fc462cada50d6b47b3ca0b" Type="http://schemas.octgn.org/picture" />
+  <Relationship Target="/cards/wknight.png" Id="C41391a2b5aba4f7791f3c7708b37f977" Type="http://schemas.octgn.org/picture" />
+  <Relationship Target="/cards/wpawn.png" Id="C95d43b3d72694aba9f29a01a9733b5d1" Type="http://schemas.octgn.org/picture" />
+  <Relationship Target="/cards/wqueen.png" Id="Cc2c493868f5742379f231478c2d5abbe" Type="http://schemas.octgn.org/picture" />
+  <Relationship Target="/cards/wrook.png" Id="Cd1b7956dd7fa4a729b6c201072c0954f" Type="http://schemas.octgn.org/picture" />
+</Relationships>

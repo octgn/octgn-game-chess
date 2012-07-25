@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Chess" id="2f3dbb9b-67c4-41c9-b648-047a2fa4fc56" octgnVersion="3.0.0.0" version="1.0.0.0" markersize="0">
+	<card back="r1" front="r1" width="40" height="103" cornerRadius="0" />
+	<table name="Table" visibility="all" ordered="false" width="824" height="824" board="r2" />
+	<player summary="Tits">
+		<hand name="Hand" visibility="me" ordered="false" width="63" height="88" shortcut="ctrl+H" icon="r1" />
+	</player>
+	<deck>
+		<section name="Main" group="Deck" />
+	</deck>
+</game>

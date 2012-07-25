@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+  <Relationship Target="/card/bking.png" Id="r1" Type="http://schemas.octgn.org/picture" />
+  <Relationship Target="/table/board.png" Id="r2" Type="http://schemas.octgn.org/picture" />
+  <Relationship Target="/counters/bking.png" Id="r3" Type="http://schemas.octgn.org/picture" />
+</Relationships>
