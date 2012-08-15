@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<game name="Chess" id="2f3dbb9b-67c4-41c9-b648-047a2fa4fc56" octgnVersion="3.0.1.14" version="1.0.0" markersize="10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Game.xsd">
+<game name="Chess" id="2f3dbb9b-67c4-41c9-b648-047a2fa4fc56" octgnVersion="3.0.1.14" version="1.1.0" markersize="10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Game.xsd">
   <scripts>
     <script src="r01" />
   </scripts>
   <card back="r02" front="r03" width="100" height="100" cornerRadius="0">
+    <property name="Color" type="String" textKind="Tokens" />
   </card>
   <table name="Table" visibility="all" ordered="false" board="r04" boardPosition="-400,-400,800,800" background="r05" width="824" height="824" backgroundStyle="uniformToFill">
    <groupaction menu="Set-up your pieces" execute="gameSetup" />
+   <cardaction menu="Promote piece" execute="promote" />
+   <groupaction menu="Create a piece" execute="create" />
   </table>
   <player>
     <hand>
     </hand>
   </player>
+  <shared>
+    <group name="Discard" shortcut="del" visibility="all" width="100" height="100" icon="r06">
+    </group>
+  </shared>
   <deck>
   </deck>
 </game>

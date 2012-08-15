@@ -5,4 +5,5 @@
   <Relationship Target="/bking.png" Id="r03" Type="http://schemas.octgn.org/picture" />
   <Relationship Target="/board.png" Id="r04" Type="http://schemas.octgn.org/picture" />
   <Relationship Target="/background.jpg" Id="r05" Type="http://schemas.octgn.org/picture" />
+  <Relationship Target="/deck.png" Id="r06" Type="http://schemas.octgn.org/picture" />
 </Relationships>
