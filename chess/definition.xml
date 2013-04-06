@@ -8,7 +8,7 @@
 	authors="Brine, Kelly Elton"
 	description="A chess game for OCTGN"
 	tags="chess" 
-	iconurl="https://raw.github.com/kellyelton/dominoes/master/dominoes.o8g/cards/front.png" >
+	iconurl="https://raw.github.com/brine/octgn-game-chess/master/chess/Images/bking.png" >
   <scripts>
     <script src="Scripts/actions.py" />
 	</scripts>
