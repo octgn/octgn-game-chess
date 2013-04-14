@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Chess Set" id="64a18595-85f8-44a6-9678-69c7a06fa4c6" gameId="2f3dbb9b-67c4-41c9-b648-047a2fa4fc56" gameVersion="1.1.0" version="1.1">
+<set name="Chess Set" id="64a18595-85f8-44a6-9678-69c7a06fa4c6" gameId="2f3dbb9b-67c4-41c9-b648-047a2fa4fc56" gameVersion="1.1.0" version="1.1">
  <cards>
   <card id="0df50d0f-0400-4a11-ab7f-1b3afbed5daf" name="Black King"><property name="Color" value="Black" /></card>
   <card id="75cd0ccd-9d7a-4578-8646-c17196d6b54b" name="Black Knight"><property name="Color" value="Black" /></card>
