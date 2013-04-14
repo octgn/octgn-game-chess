@@ -59,6 +59,11 @@ def gameSetup(group, x = 0, y = 0):
   table.create(pieces[playercolor]["queen"], (pside*-50 + 50) - 100, pside*300, 1)
   notify("{} set up their pieces.".format(me))
 
+def kill(card, x = 0, y = 0):
+  mute()
+  card.moveTo(shared.Discard)
+  notify("{}'s {} has been captured.".format(me, card))
+
 def promote(card, x = 0, y = 0):
   mute()
   global playercolor
