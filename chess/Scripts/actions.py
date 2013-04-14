@@ -62,8 +62,7 @@ def gameSetup(group, x = 0, y = 0):
 def promote(card, x = 0, y = 0):
   mute()
   global playercolor
-  createstring = "[Color] = '{}'".format(playercolor)
-  newcard, quantity = askCard(createstring)
+  newcard, quantity = askCard({"Color": playercolor}, "And")
   if quantity == 0 or newcard == None: return
   x, y = card.position
   card.moveTo(shared.Discard)
@@ -74,8 +73,7 @@ def promote(card, x = 0, y = 0):
 def create(group, x = 0, y = 0):
   mute()
   global playercolor
-  createstring = "[Color] = '{}'".format(playercolor)
-  newcard, quantity = askCard(createstring)
+  newcard, quantity = askCard({"Color": playercolor}, "And")
   if quantity == 0 or newcard == None: return
   newcard = table.create(newcard, x, y, 1)
   notify("{} created a {}.".format(me, newcard))
