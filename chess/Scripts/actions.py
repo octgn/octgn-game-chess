@@ -41,22 +41,25 @@ def gameSetup(group, x = 0, y = 0):
     pside = -1
   else:
     pside = 1
-  table.create(pieces[playercolor]["pawn"], (pside*-50 + 50) - 400, pside*200, 1)
-  table.create(pieces[playercolor]["pawn"], (pside*-50 + 50) - 300, pside*200, 1)
-  table.create(pieces[playercolor]["pawn"], (pside*-50 + 50) - 200, pside*200, 1)
-  table.create(pieces[playercolor]["pawn"], (pside*-50 + 50) - 100, pside*200, 1)
-  table.create(pieces[playercolor]["pawn"], (pside*-50 + 50), pside*200, 1)
-  table.create(pieces[playercolor]["pawn"], (pside*-50 + 50) + 100, pside*200, 1)
-  table.create(pieces[playercolor]["pawn"], (pside*-50 + 50) + 200, pside*200, 1)
-  table.create(pieces[playercolor]["pawn"], (pside*-50 + 50) + 300, pside*200, 1)
-  table.create(pieces[playercolor]["rook"], (pside*-50 + 50) - 400, pside*300, 1)
-  table.create(pieces[playercolor]["rook"], (pside*-50 + 50) + 300, pside*300, 1)
-  table.create(pieces[playercolor]["knight"], (pside*-50 + 50) - 300, pside*300, 1)
-  table.create(pieces[playercolor]["knight"], (pside*-50 + 50) + 200, pside*300, 1)
-  table.create(pieces[playercolor]["bishop"], (pside*-50 + 50) - 200, pside*300, 1)
-  table.create(pieces[playercolor]["bishop"], (pside*-50 + 50) + 100, pside*300, 1)
-  table.create(pieces[playercolor]["king"], (pside*-50 + 50), pside*300, 1)
-  table.create(pieces[playercolor]["queen"], (pside*-50 + 50) - 100, pside*300, 1)
+  incamount = -40
+  offset = 25
+  table.create(pieces[playercolor]["pawn"], (pside*-incamount + offset) - 400, pside*175, 1)
+  table.create(pieces[playercolor]["pawn"], (pside*-incamount + offset) - 310, pside*175, 1)
+  table.create(pieces[playercolor]["pawn"], (pside*-incamount + offset) - 220, pside*175, 1)
+  table.create(pieces[playercolor]["pawn"], (pside*-incamount + offset) - 130, pside*175, 1)
+  table.create(pieces[playercolor]["pawn"], (pside*-incamount + offset)-40, pside*175, 1)
+  table.create(pieces[playercolor]["pawn"], (pside*-incamount + offset) + 50, pside*175, 1)
+  table.create(pieces[playercolor]["pawn"], (pside*-incamount + offset) + 140, pside*175, 1)
+  table.create(pieces[playercolor]["pawn"], (pside*-incamount + offset) + 230, pside*175, 1)
+  
+  table.create(pieces[playercolor]["rook"], (pside*-incamount + offset) - 400, pside*270, 1)
+  table.create(pieces[playercolor]["knight"], (pside*-incamount + offset) - 310, pside*270, 1)
+  table.create(pieces[playercolor]["bishop"], (pside*-incamount + offset) - 220, pside*270, 1)
+  table.create(pieces[playercolor]["king"], (pside*-incamount + offset)-130, pside*270, 1)
+  table.create(pieces[playercolor]["queen"], (pside*-incamount + offset) - 40, pside*270, 1)
+  table.create(pieces[playercolor]["bishop"], (pside*-incamount + offset) + 50, pside*270, 1)
+  table.create(pieces[playercolor]["knight"], (pside*-incamount + offset) + 140, pside*270, 1)
+  table.create(pieces[playercolor]["rook"], (pside*-incamount + offset) + 230, pside*270, 1)
   notify("{} set up their pieces.".format(me))
 
 def kill(card, x = 0, y = 0):
