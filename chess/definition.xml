@@ -17,7 +17,7 @@
   <card back="Images/bking.png" front="Images/bking.png" width="75" height="128" cornerRadius="0">
     <property name="Color" type="String" textKind="Tokens" />
   </card>
-  <table name="Table" visibility="all" ordered="False" board="Images/board.png" boardPosition="-574, -574, 1148, 1148" background="Images/background.jpg" width="1148" height="1148" backgroundStyle="uniformToFill">
+  <table name="Table" visibility="all" ordered="False" board="Images/board.png" boardPosition="-574,-574,1148,1148" background="Images/background.jpg" width="1148" height="1148" backgroundStyle="uniformToFill">
    <groupaction menu="Set-up your pieces" execute="gameSetup" />
    <groupaction menu="Create a piece" execute="create" />
    <cardaction menu="Capture piece" shortcut="del" execute="kill" />
