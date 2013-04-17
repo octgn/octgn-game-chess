@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game name="Chess" id="2f3dbb9b-67c4-41c9-b648-047a2fa4fc56" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	octgnVersion="3.1.0.0" 
-	version="1.0.0.5"
+	version="1.0.0.6"
 	markersize="10" 
 	setsurl="http://www.octgn.net" 
 	gameurl="http://www.octgn.net" 
@@ -14,10 +14,10 @@
 	</scripts>
   <proxygen definitionsrc="Proxy/proxydef.xml" >
   </proxygen>
-  <card back="Images/bking.png" front="Images/bking.png" width="43" height="73" cornerRadius="0">
+  <card back="Images/bking.png" front="Images/bking.png" width="75" height="128" cornerRadius="0">
     <property name="Color" type="String" textKind="Tokens" />
   </card>
-  <table name="Table" visibility="all" ordered="False" board="Images/board.png" boardPosition="-400,-400,800,800" background="Images/background.jpg" width="1148" height="1148" backgroundStyle="uniformToFill">
+  <table name="Table" visibility="all" ordered="False" board="Images/board.png" boardPosition="-574, -574, 1148, 1148" background="Images/background.jpg" width="1148" height="1148" backgroundStyle="uniformToFill">
    <groupaction menu="Set-up your pieces" execute="gameSetup" />
    <groupaction menu="Create a piece" execute="create" />
    <cardaction menu="Capture piece" shortcut="del" execute="kill" />
