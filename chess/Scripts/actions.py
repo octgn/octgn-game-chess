@@ -23,8 +23,9 @@ playercolor = None
 def gameSetup(group, x = 0, y = 0):
   mute()
   for card in table:
-    notify("Cannot set up pieces: There are already pieces on the table.  Please reset the game and try again.")
-    return
+    if card.owner == me:
+      notify("Cannot set up pieces: There are already pieces on the table.  Please reset the game and try again.")
+      return
   global playercolor
   if playercolor == None:
     if table.isTwoSided():
