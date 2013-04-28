@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game name="Chess" id="2f3dbb9b-67c4-41c9-b648-047a2fa4fc56" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	octgnVersion="3.1.0.0" 
-	version="1.0.0.7"
+	version="1.0.0.8"
 	markersize="10" 
 	setsurl="http://www.octgn.net" 
 	gameurl="http://www.octgn.net" 
 	authors="Brine, Kelly Elton"
 	description="A chess game for OCTGN"
 	tags="chess" 
-	iconurl="https://raw.github.com/brine/octgn-game-chess/master/chess/Images/bking.png" >
+	iconurl="https://raw.github.com/brine/octgn-game-chess/master/chess/Images/icon.jpg" >
   <scripts>
     <script src="Scripts/actions.py" />
 	</scripts>
