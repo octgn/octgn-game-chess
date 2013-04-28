@@ -14,7 +14,7 @@
 	</scripts>
   <proxygen definitionsrc="Proxy/proxydef.xml" >
   </proxygen>
-  <card back="Images/bking.png" front="Images/icon.jpg" width="75" height="128" cornerRadius="0">
+  <card back="Images/icon.jpg" front="Images/icon.jpg" width="75" height="128" cornerRadius="0">
     <property name="Color" type="String" textKind="Tokens" />
   </card>
   <table name="Table" visibility="all" ordered="False" board="Images/board.png" boardPosition="-574,-574,1148,1148" background="Images/background.jpg" width="1148" height="1148" backgroundStyle="uniformToFill">
